@@ -1,0 +1,44 @@
+﻿@model Int32?
+@{
+    ViewData["Title"] = "Table";
+}
+
+<div class="container" id="game-container" style="display: none;">
+    <div class="game-info-block">
+        <input type="hidden" id="gameId" value="@Model">
+        <div class="well game-info">
+            <h3>Game info: </h3>
+            <h4>Max rounds: <span id="maxRounds"></span></h4>
+            <h4>Current round: <span class="round"></span></h4>
+            <h4>Reward: <span id="reward"></span></h4>
+        </div>
+        <div class="history-container">
+            <button class="history-btn btn-block">History <i class="fa fa-history" aria-hidden="true"></i></button>
+        </div>
+        <div class="well player-info"></div>
+        <div class="action-container">
+            @Html.Partial("_DealModal")
+            @Html.Partial("_InsuranceModal")
+            @Html.Partial("_InsuranceErrorModal")
+            @Html.Partial("_ExtraModal")
+        </div>
+    </div>
+    <div class="players">
+        <div class="dealler-container"></div>
+        <div class="players-container"></div>
+    </div>
+</div>
+
+@Html.Partial("_FinishedGameModal")
+
+@Html.Partial("_RuleModal")
+
+@Html.Partial("_RoundModal")
+
+@Html.Partial("_ResultModal")
+
+@Html.Partial("_HistoryModal")
+
+@Html.Partial("_ErrorModal")
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/Game/table.js"></script>

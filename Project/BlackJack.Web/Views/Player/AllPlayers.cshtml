@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "All Players";
+}
+
+<div id="loader"><h4><i class="fa fa-spinner fa-spin"></i></h4></div>
+
+<div class="container" style="display:none;" id="container-players">
+    <h2>All Players</h2>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <table class="table table-bordered" id="Table">
+                <tr>
+                    <th>Id</th>
+                    <th>NickName</th>
+                    <th>Player Role</th>
+                    <th>Coins</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/Player/allPlayers.js"></script>

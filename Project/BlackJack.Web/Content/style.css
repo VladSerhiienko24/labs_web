@@ -1,0 +1,668 @@
+﻿.navbar {
+    margin-bottom: 10px;
+    border-radius: 0px;
+}
+
+/*---------------------------HOME----------------------------*/
+.home-container .card-background, .home-container .jumbotron-container {
+    text-align: center;
+}
+
+#loader {
+    text-align: center;
+}
+
+    #loader .fa-spinner {
+        font-size: 30px
+    }
+
+/*---------------------------NEW GAME------------------------*/
+.panel-new-game {
+    box-shadow: 0 2px 15px rgb(46, 139, 87);
+    border: 1px solid;
+    border-color: seagreen;
+    /*border-radius: 4px;*/
+}
+
+    .panel-new-game input {
+        border-color: seagreen;
+    }
+
+        .panel-new-game input.error {
+            border: 1px solid #9c1e1e;
+        }
+
+    .panel-new-game label.error {
+        color: #9c1e1e;
+    }
+
+.new-game-head {
+    padding: 0;
+    text-align: center;
+}
+
+.new-game-jumbotron {
+    background-color: seagreen;
+    color: #fff;
+    border-radius: 0px !important;
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    .new-game-jumbotron {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+#startNewGame {
+    background-color: seagreen;
+    color: #fff;
+    font-size: 16px;
+}
+
+/*------------------------------TABLE------------------------*/
+.game-info-block {
+    float: right;
+    width: 30%;
+}
+
+.players {
+    display: flow-root;
+    float: left;
+    width: 69%;
+}
+
+.game-buttons {
+    margin-bottom: 10px;
+}
+
+.round-info {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.players-container {
+    /*display: flow-root;*/
+}
+
+.player-box, .bot-box, .dealler-box {
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+.player-box {
+    border: 1px solid seagreen;
+    box-shadow: 0 2px 4px rgba(46, 139, 87, 0.7);
+    margin-left: 0px;
+}
+
+.bot-box {
+    border: 1px solid #483737;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.dealler-box {
+    border: 1px solid brown;
+    box-shadow: 0 2px 4px rgba(165, 42, 42, 0.7);
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+@media (min-width: 992px) {
+    .players-container .col-md-6 {
+        width: 48%;
+    }
+
+    .player-box {
+        width: 100% !important;
+    }
+}
+
+.playerCards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game-info, .deals-info, .player-info {
+    box-shadow: 0 2px 4px rgb(115, 177, 142);
+}
+
+.game-info, .deals-info, .round-info, .player-info {
+    font-family: monospace;
+}
+
+#game-container .well {
+    background-color: rgba(121, 214, 162, 0.61);
+    border-color: seagreen;
+    color: #021507;
+}
+
+.game-info h3, .deals-info h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.game-info h3 {
+    font-weight: bold;
+}
+
+.game-info h4 {
+    font-size: 24px;
+}
+
+.player-info h3 {
+    margin-top: 0;
+}
+
+.player-name {
+    color: rgba(255, 255, 255, 0.90);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.player-head {
+    background-color: seagreen;
+}
+
+.bot-head {
+    background-color: #333;
+}
+
+.dealler-head {
+    background-color: brown;
+}
+
+.playerPoints, .playerCoins {
+    font-size: 18px;
+    font-weight: 800;
+    color: #333;
+    background-color: #fff;
+}
+
+.card {
+    font-size: 12px;
+    width: 80px;
+    height: 150px;
+}
+
+.nopadding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (max-width: 992px) {
+    .middleinput {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.stepModalFooter .timer, .stepModalFooter .timerDeal, .insuranceModalFooter .insuranceTimer {
+    display: inline-block;
+    float: left;
+    font-size: 25px;
+}
+
+.stepModalFooter .stepModalButtons {
+    display: inline-block;
+}
+
+#stepModal {
+    font-family: monospace;
+    text-align: center;
+}
+
+    #stepModal .btn {
+        font-size: 18px;
+        background-color: seagreen;
+        color: #fff;
+    }
+
+#extraModal {
+    font-family: monospace;
+    text-align: center;
+}
+
+    #extraModal .btn {
+        font-size: 17px;
+    }
+
+#ruleModal .btn {
+    font-family: monospace;
+    font-size: 18px;
+    background-color: seagreen;
+    color: #fff;
+}
+
+.history-container {
+    margin-bottom: 20px;
+}
+
+.history-btn {
+    flex: 1 1 auto;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 25px;
+    height: 75px;
+    border: 1px solid;
+    border-color: seagreen;
+    background-image: linear-gradient(to right, #ade6c6 0%, #dff0d8 51%, #6ce09f 100%);
+    box-shadow: 0 2px 4px rgb(115, 177, 142);
+}
+
+.action-container .modal-content {
+    font-family: monospace;
+    border: 1px solid;
+    border-color: #624fff;
+    box-shadow: 0 5px 30px rgb(27, 0, 255);
+}
+
+    .action-container .modal-content .btn-success {
+        color: #fff;
+        background-color: #705fff;
+        border-color: #705fff;
+    }
+
+.action-container .insurance-error {
+    font-family: monospace;
+    border: 1px solid;
+    border-color: #e60909;
+    box-shadow: 0 5px 30px rgb(255, 0, 0);
+}
+
+.insurance-error h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.extraCard .modalPlayerPoints, .extraCard .timer, .makeDeal .timerDeal, .insuranceTimer, .modalPlayerInsurance {
+    color: #da2626;
+}
+
+.makeDeal .modal-header {
+    border-bottom: 1px solid transparent;
+    padding: 10px;
+    text-align: center;
+}
+
+.makeDeal .modal-body {
+    padding: 10px;
+}
+
+.makeDeal .modal-footer {
+    border-top: 1px solid transparent;
+    padding: 10px;
+}
+
+.makeDeal input {
+    border: 1px solid #705fff;
+}
+
+    .makeDeal input.error {
+        border: 1px solid #9c1e1e;
+    }
+
+.makeDeal label.error {
+    color: #9c1e1e;
+}
+
+/*---------------------- ROUND -----------------*/
+.box {
+    display: block;
+    background: lightblue;
+    margin-bottom: 1em;
+    position: absolute;
+}
+
+#fade-in {
+    height: 150px;
+    width: 1px;
+    opacity: 0;
+    transition: all .75s ease;
+}
+
+    #fade-in.show {
+        opacity: 1;
+        height: 150px;
+        width: 500px;
+    }
+
+/*----------------------------RULE MODAL-----------------------------*/
+.rule-modal-body .modal-body {
+    padding: 15px 15px 0 15px !important;
+}
+
+    .rule-modal-body .modal-body img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .rule-modal-body .modal-body h4 {
+        font-size: 16px;
+    }
+
+.rule-modal-body .modal-footer {
+    border-top: 1px solid transparent;
+}
+
+/*--------------------------EXTRA MODAL-----------------------------*/
+.extra-modal-body .modalPlayerButton {
+    background-color: seagreen;
+    color: #fff;
+}
+
+/*--------------------------STEP MODAL-----------------------------*/
+.step-modal-body #exampleModalLabel {
+    color: seagreen;
+}
+
+/*----------------------------RESULT MODAL-----------------------------*/
+.result-modal-body .modal-body {
+    padding: 15px 15px 0 15px !important;
+    text-align: center;
+}
+
+    .result-modal-body .modal-body img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .result-modal-body .modal-body .panel {
+        background-color: seagreen;
+        border-radius: 10px;
+        padding-bottom: 0;
+        margin-bottom: 15px;
+    }
+
+        .result-modal-body .modal-body .panel table {
+            background-color: #fff;
+            border-radius: 10px;
+            font-family: monospace;
+        }
+
+            .result-modal-body .modal-body .panel table .winners {
+                color: seagreen;
+                text-align: center;
+                border-top: 1px solid transparent;
+            }
+
+.result-modal-body .modal-footer {
+    color: #fff;
+    font-family: monospace;
+    border-top: 1px solid transparent;
+    padding-top: 0;
+}
+
+    .result-modal-body .modal-footer #finishGame {
+        width: 50%;
+        font-size: 16px;
+        background-color: #ff4a25;
+    }
+
+    .result-modal-body .modal-footer #nextRound {
+        width: 50%;
+        font-size: 16px;
+        background-color: #38b971;
+    }
+
+    .result-modal-body .modal-footer #finishGame:hover {
+        color: #fff;
+        background-color: #bd3216;
+    }
+
+    .result-modal-body .modal-footer #nextRound:hover {
+        color: #fff;
+        background-color: seagreen;
+    }
+
+.result-modal-body .rewards table th {
+    text-align: center;
+    border-top: 0;
+}
+
+.result-modal-body .rewards table td {
+    text-align: center;
+    font-size: 18px;
+    border-top: 0;
+}
+
+.result-modal-body .rewards .winners-reward {
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: normal;
+}
+/*----------------------------HISTORY MODAL-----------------------------*/
+.history-modal-body .modal-body {
+    padding: 15px 15px 0 15px !important;
+    font-family: monospace;
+}
+
+    .history-modal-body .modal-body img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .history-modal-body .modal-body h4 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+.history-modal-body .modal-footer {
+    border-top: 1px solid transparent;
+}
+
+.history-modal-body .panel {
+    border-radius: 10px;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px;
+    font-family: monospace;
+    border: 0 !important;
+}
+
+    .history-modal-body .panel .panel-body {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+.winners-container {
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+#close-history-btn {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    background-color: #2e8b57;
+    border-color: #2e8b57;
+}
+
+    #close-history-btn:hover {
+        background-color: #1e5838;
+        border-color: #1e5838;
+    }
+
+.round-box {
+    padding-right: 5px;
+}
+
+.round-box-number {
+    border: 1px solid seagreen;
+    border-radius: 4px;
+    background-color: rgba(121, 214, 162, 0.61);
+}
+
+    .round-box-number h4 {
+        text-align: center;
+        font-size: 20px !important;
+        font-weight: bolder !important;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+.round-box-winners {
+    padding-right: 5px;
+}
+
+.winners-container::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.winners-container::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.winners-container::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #f0ad4e;
+}
+
+/*----------------------------FINISHED GAME MODAL-----------------------------*/
+
+#finishedGameModal img {
+    max-width: 100%;
+}
+
+#finishedGameModal .modal-footer {
+    display: flex;
+    justify-content: space-around;
+    font-family: monospace;
+}
+
+#finishedGameModal a {
+    width: 100%;
+}
+
+    #finishedGameModal a button {
+        width: 99%;
+        font-size: 20px;
+    }
+
+/*----------------------------ERROR MODAL-----------------------------*/
+
+#errorModal .modal-body {
+    padding: 0;
+}
+
+#errorModal .alert {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#errorModal .error-modal-body .modal-content {
+    width: fit-content;
+}
+
+
+/*----------------------------CARDS-----------------------------*/
+
+.cards {
+    text-align: center;
+    max-width: 640px;
+    /*margin: 0 auto;*/
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    /*width: 172px;
+    height: 240px;*/
+    width: 130px;
+    height: 200px;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 4px;
+    background: #d4d0d0;
+    /*background-image: url(../images/rubashka.jpg);*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+    .card::before, .card::after {
+        content: attr(value);
+        position: absolute;
+        width: 12px;
+        text-align: center;
+        letter-spacing: -2px;
+    }
+
+    .card::before {
+        top: 4px;
+        left: 4px;
+        letter-spacing: 0px;
+    }
+
+    .card::after {
+        bottom: 4px;
+        right: 4px;
+        transform: rotate(180deg);
+        letter-spacing: 0px;
+    }
+
+.card__inner {
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 24px;
+    left: 24px;
+    right: 24px;
+    bottom: 24px;
+}
+
+.card__inner--centered {
+    justify-content: center;
+}
+
+.card__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__column--centered {
+    justify-content: center;
+}
+
+.card__symbol {
+    display: inline-block;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+    .card__symbol::before {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+/**/
+.card {
+    font-size: 12px;
+    width: 80px;
+    height: 150px;
+}
+
+.card__symbol {
+    height: 20px;
+}

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack.Web", "BlackJack.Web\BlackJack.Web.csproj", "{37E8A83C-2915-47AA-9169-686902853896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack.DataAccess", "BlackJack.DataAccess\BlackJack.DataAccess.csproj", "{475CB073-5B5E-47CA-ACDA-B0CE5506BC30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack.Entities", "BlackJack.Entities\BlackJack.Entities.csproj", "{21C928C0-A3B5-4DAF-A4EB-B59644C9DD9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack.ViewModels", "BlackJack.ViewModels\BlackJack.ViewModels.csproj", "{76A2017B-DBEA-4C41-9C8D-6B3246961EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack.BusinessLogic", "BlackJack.BusinessLogic\BlackJack.BusinessLogic.csproj", "{ED4255C9-EB77-4913-A071-10C903FA4CBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack.Exceptions", "BlackJack.Exceptions\BlackJack.Exceptions.csproj", "{6D93EB5F-BC17-4F64-A775-E1D96E37F43B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack.Shared", "BlackJack.Shared\BlackJack.Shared.csproj", "{5108333B-4536-42C8-B864-4BFE5DE8FD9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37E8A83C-2915-47AA-9169-686902853896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E8A83C-2915-47AA-9169-686902853896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E8A83C-2915-47AA-9169-686902853896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E8A83C-2915-47AA-9169-686902853896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475CB073-5B5E-47CA-ACDA-B0CE5506BC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475CB073-5B5E-47CA-ACDA-B0CE5506BC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475CB073-5B5E-47CA-ACDA-B0CE5506BC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475CB073-5B5E-47CA-ACDA-B0CE5506BC30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C928C0-A3B5-4DAF-A4EB-B59644C9DD9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C928C0-A3B5-4DAF-A4EB-B59644C9DD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C928C0-A3B5-4DAF-A4EB-B59644C9DD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C928C0-A3B5-4DAF-A4EB-B59644C9DD9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76A2017B-DBEA-4C41-9C8D-6B3246961EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A2017B-DBEA-4C41-9C8D-6B3246961EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A2017B-DBEA-4C41-9C8D-6B3246961EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A2017B-DBEA-4C41-9C8D-6B3246961EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED4255C9-EB77-4913-A071-10C903FA4CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4255C9-EB77-4913-A071-10C903FA4CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED4255C9-EB77-4913-A071-10C903FA4CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED4255C9-EB77-4913-A071-10C903FA4CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D93EB5F-BC17-4F64-A775-E1D96E37F43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D93EB5F-BC17-4F64-A775-E1D96E37F43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D93EB5F-BC17-4F64-A775-E1D96E37F43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D93EB5F-BC17-4F64-A775-E1D96E37F43B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5108333B-4536-42C8-B864-4BFE5DE8FD9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5108333B-4536-42C8-B864-4BFE5DE8FD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5108333B-4536-42C8-B864-4BFE5DE8FD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5108333B-4536-42C8-B864-4BFE5DE8FD9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AD5BC46-EB87-4842-810E-A338CDEBF3E3}
+	EndGlobalSection
+EndGlobal

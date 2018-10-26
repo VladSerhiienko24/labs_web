@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "New Game";
+}
+
+<div class="container">
+    <div class="panel panel-new-game">
+        <div class="panel-heading new-game-head">
+            <div class="jumbotron new-game-jumbotron">
+                <h2>Create a new game</h2>
+            </div>
+        </div>
+        <div class="panel-body">
+            <form id="newGameForm">
+                <div class="form-group">
+                    <label for="NickName" class="col-form-label">NickName</label>
+                    <input type="text" class="form-control" name="nickName" id="NickName" placeholder="Type your nickname">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-3 nopadding">
+                        <label for="CountBots" class="col-form-label">Bots count</label>
+                        <input type="text" autocomplete="off" class="form-control" name="countBots" id="CountBots" placeholder="Type count of bots">
+                    </div>
+                    <div class="form-group col-md-3 middleinput">
+                        <label for="MaxCountRounds" class="col-form-label">Max Count Rounds</label>
+                        <input type="text" autocomplete="off" class="form-control" name="maxCountRounds" id="MaxCountRounds" placeholder="Type max count of rounds">
+                    </div>
+                    <div class="form-group col-md-3 middleinput">
+                        <label for="CoinsAtStart" class="col-form-label">Coins at start</label>
+                        <input type="text" autocomplete="off" class="form-control" name="coinsAtStart" id="CoinsAtStart" placeholder="Type count of coins at start">
+                    </div>
+                    <div class="form-group col-md-3 nopadding">
+                        <label for="Reward" class="col-form-label">Reward</label>
+                        <input type="text" autocomplete="off" class="form-control" name="reward" id="Reward" placeholder="Type count of reward">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-12">
+                        <input type="submit" id="startNewGame" class="btn btn-block" value="Start game">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@Html.Partial("_ErrorModal")
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/Game/newGame.js"></script>

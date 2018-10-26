@@ -1,0 +1,540 @@
+/---------------------Error------------------------/
+Message: Exception of type 'System.Exception' was thrown.
+Controller: GameAPI
+Action: CreateNewGame
+Data: 18-Oct-18 6:14:08 PM
+
+
+/---------------------Error------------------------/
+Message: Exception of type 'System.Exception' was thrown.
+Controller: GameAPI
+Action: CreateNewGame
+Data: 18-Oct-18 6:16:57 PM
+
+
+/---------------------Error------------------------/
+Message: Exception of type 'System.Exception' was thrown.
+Controller: GameAPI
+Action: CreateNewGame
+Data: 18-Oct-18 6:18:32 PM
+
+/---------------------Error------------------------/
+Message: Failed get item
+Controller: GameAPI
+Action: GetGame
+Data: 18-Oct-18 6:33:56 PM
+
+/---------------------Error------------------------/
+Message: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe.
+Controller: GameAPI
+Action: GetWinners
+Data: 18-Oct-18 6:35:50 PM
+
+/---------------------Error------------------------/
+Message: File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs, Method:MoveNext, LineNumber: 67  -->  
+Controller: GameAPI
+Action: GetGame
+Data: 19-Oct-18 11:07:14 AM
+
+/---------------------Error------------------------/
+Message: Message: Failed get item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: Void MoveNext()
+LineNumber: 67
+
+Controller: GameAPI
+Action: GetGame
+Data: 19-Oct-18 11:13:13 AM
+
+/---------------------Error------------------------/
+Controller: GameAPI
+Action: GetGame
+Data: 19-Oct-18 11:21:31 AM
+
+/---------------------Error------------------------/
+Controller: GameAPI
+Action: GetGame
+Data: 19-Oct-18 11:25:15 AM
+
+/---------------------Error------------------------/
+Controller: GameAPI
+Action: GetGame
+Data: 19-Oct-18 11:25:21 AM
+
+/---------------------Error------------------------/
+Message: Message: Failed get item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Get>d__6
+LineNumber: 67
+
+Controller: GameAPI
+Action: GetGame
+Data: 19-Oct-18 11:26:28 AM
+
+/---------------------Error------------------------/
+Message: Message: Failed get item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Get>d__6
+LineNumber: 70
+
+Controller: GameAPI
+Action: GetGame
+Data: 19-Oct-18 11:51:25 AM
+
+/---------------------Error------------------------/
+Message: Message: Failed get item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Get>d__6
+LineNumber: 67
+
+Controller: GameAPI
+Action: GetGame
+Data: 19-Oct-18 12:19:01 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed get item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Get>d__6
+LineNumber: 67
+
+Controller: GameAPI
+Action: GetGame
+Data: 19-Oct-18 12:27:47 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed get item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Get>d__6
+LineNumber: 67
+
+Controller: GameAPI
+Action: GetGame
+Data: 19-Oct-18 12:49:23 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed get item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Get>d__6
+LineNumber: 67
+
+Controller: GameAPI
+Action: GetGame
+Data: 19-Oct-18 12:51:25 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed get item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Get>d__6
+LineNumber: 67
+
+Controller: GameAPI
+Action: GetGame
+Data: 19-Oct-18 1:08:24 PM
+
+/---------------------Error------------------------/
+Message: The multi-part identifier "p.PlayerRole" could not be bound.
+Controller: PlayerAPI
+Action: GetAllPlayers
+Data: 22-Oct-18 10:48:18 AM
+
+/---------------------Error------------------------/
+Message: Invalid operation. The connection is closed.
+Controller: GameAPI
+Action: CreateNewGame
+Data: 22-Oct-18 12:41:33 PM
+
+/---------------------Error------------------------/
+Message: BeginExecuteReader requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+Controller: GameAPI
+Action: GetWinners
+Data: 22-Oct-18 1:04:38 PM
+
+/---------------------Error------------------------/
+Message: BeginExecuteReader requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+Controller: GameAPI
+Action: GetWinners
+Data: 22-Oct-18 1:06:30 PM
+
+/---------------------Error------------------------/
+Message: Object reference not set to an instance of an object.
+Controller: GameAPI
+Action: GetGame
+Data: 22-Oct-18 4:43:38 PM
+
+/---------------------Error------------------------/
+Message: 
+Controller: GameAPI
+Action: GetGame
+Data: 22-Oct-18 4:45:06 PM
+
+/---------------------Error------------------------/
+Message: Object reference not set to an instance of an object.
+Controller: GameAPI
+Action: GetGame
+Data: 22-Oct-18 4:45:46 PM
+
+/---------------------Error------------------------/
+Message: Object reference not set to an instance of an object.
+Controller: GameAPI
+Action: GetGame
+Data: 22-Oct-18 4:46:17 PM
+
+/---------------------Error------------------------/
+Message: Object reference not set to an instance of an object.
+Controller: GameAPI
+Action: GetGame
+Data: 22-Oct-18 4:48:52 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed get item
+File: C:\Work\BlackJack\BlackJack.Exceptions\ExceptionsHandler\ExceptionsHandler.cs
+Method: ExceptionsHandler
+LineNumber: 12
+
+Controller: GameAPI
+Action: GetGame
+Data: 22-Oct-18 5:06:33 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed get item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Get>d__6
+LineNumber: 69
+
+Controller: GameAPI
+Action: GetGame
+Data: 22-Oct-18 5:31:42 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed get item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Get>d__6
+LineNumber: 69
+
+Controller: GameAPI
+Action: GetGame
+Data: 22-Oct-18 5:32:27 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 83
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 6:21:57 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 83
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 6:27:28 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 83
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 6:28:52 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 83
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 6:30:57 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 83
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 6:33:52 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 83
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 6:36:56 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 79
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 6:40:46 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 79
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 6:42:00 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 79
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 6:47:09 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 79
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 6:52:13 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 79
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 6:55:44 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 79
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 6:56:54 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 79
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 6:58:21 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 79
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 7:01:07 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 79
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 7:02:17 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 79
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 7:04:34 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 79
+
+Controller: GameAPI
+Action: GetRound
+Data: 22-Oct-18 7:05:46 PM
+
+/---------------------Error------------------------/
+Message: Message: Object reference not set to an instance of an object.
+File: C:\Work\BlackJack\BlackJack.BusinessLogic\Services\GameLogicService.cs
+Method: <SetDealBotAndDealler>d__26
+LineNumber: 498
+
+Controller: GameAPI
+Action: SetDealBotAndDealler
+Data: 22-Oct-18 7:06:07 PM
+
+/---------------------Error------------------------/
+Message: Message: Object reference not set to an instance of an object.
+File: C:\Work\BlackJack\BlackJack.BusinessLogic\Services\GameLogicService.cs
+Method: <SetDealBotAndDealler>d__26
+LineNumber: 498
+
+Controller: GameAPI
+Action: SetDealBotAndDealler
+Data: 22-Oct-18 7:06:09 PM
+
+/---------------------Error------------------------/
+Message: Message: Object reference not set to an instance of an object.
+File: C:\Work\BlackJack\BlackJack.BusinessLogic\Services\GameLogicService.cs
+Method: <SetDealBotAndDealler>d__26
+LineNumber: 498
+
+Controller: GameAPI
+Action: SetDealBotAndDealler
+Data: 22-Oct-18 7:06:11 PM
+
+/---------------------Error------------------------/
+Message: Message: Object reference not set to an instance of an object.
+File: C:\Work\BlackJack\BlackJack.BusinessLogic\Services\GameLogicService.cs
+Method: <GetPlayersTwoCards>d__14
+LineNumber: 98
+
+Controller: GameAPI
+Action: GetPlayersTwoCards
+Data: 22-Oct-18 7:06:11 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 79
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 7:06:51 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 79
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 7:08:18 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 79
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 7:09:55 PM
+
+/---------------------Error------------------------/
+Message: Message: Failed update item
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <Update>d__8
+LineNumber: 79
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 22-Oct-18 7:12:35 PM
+
+/---------------------Error------------------------/
+Message: Message: Value cannot be null.
+Parameter name: entity
+File: 
+Method: Check
+LineNumber: 0
+
+Controller: GameAPI
+Action: GetDeallerCard
+Data: 23-Oct-18 9:47:04 AM
+
+/---------------------Error------------------------/
+Message: Message: Object reference not set to an instance of an object.
+File: C:\Work\BlackJack\BlackJack.BusinessLogic\Extensions\DeckExtension.cs
+Method: <SetCards>d__0
+LineNumber: 18
+
+Controller: GameAPI
+Action: GetPlayersTwoCards
+Data: 23-Oct-18 12:25:22 PM
+
+/---------------------Error------------------------/
+Message: Message: RoundId: 220
+PlayerId: 581
+PlayerId: 582
+PlayerId: 583
+Message: Failed to get item
+
+File: C:\Work\BlackJack\BlackJack.BusinessLogic\Services\GameLogicService.cs
+Method: <GetPlayersTwoCards>d__13
+LineNumber: 118
+
+Controller: GameAPI
+Action: GetPlayersTwoCards
+Data: 23-Oct-18 4:19:39 PM
+
+/---------------------Error------------------------/
+RoundId: 221
+PlayerId: 585
+PlayerId: 586
+PlayerId: 587
+Message: Failed to get item
+
+File: C:\Work\BlackJack\BlackJack.BusinessLogic\Services\GameLogicService.cs
+Method: <GetPlayersTwoCards>d__13
+LineNumber: 118
+
+Controller: GameAPI
+Action: GetPlayersTwoCards
+Data: 23-Oct-18 4:21:56 PM
+
+/---------------------Error------------------------/
+ItemId: 21
+Message: Failed to update item
+
+File: C:\Work\BlackJack\BlackJack.DataAccess\Generics\EFBaseRepository.cs
+Method: <UpdateMultiple>d__9
+LineNumber: 118
+
+Controller: GameAPI
+Action: GetPlayersTwoCards
+Data: 24-Oct-18 7:36:45 PM
+
+/---------------------Error------------------------/
+Ссылка на объект не указывает на экземпляр объекта.
+File: C:\Users\Vlad\Desktop\Работа\blackjackframework\BlackJack.BusinessLogic\Services\GameLogicService.cs
+Method: <GiveOutTwoCards>d__33
+LineNumber: 828
+
+Controller: GameAPI
+Action: GetPlayersTwoCards
+Data: 26.10.2018 12:20:36
+
